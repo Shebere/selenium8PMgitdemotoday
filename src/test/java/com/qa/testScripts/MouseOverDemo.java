@@ -12,8 +12,6 @@ public class MouseOverDemo {
 	
 	public static WebDriver driver;
 	
-	
-	
 		@BeforeClass
 		public static void setup()
 		{
@@ -35,7 +33,7 @@ public class MouseOverDemo {
 		{
 			
 			
-			WebElement e=driver.findElement(By.id("nav-link-accountList"));
+			WebElement e=driver.findElement(By.xpath("//div[@class='nav-line-1-container']/following::span[1]"));
 			
 			// mouseover-- to move to an element moveToElement(), build , perform
 			
@@ -46,8 +44,9 @@ public class MouseOverDemo {
 			Thread.sleep(2000);
 			
 			// inspect one of the links and click on it
+			////*[@id="nav-al-your-account"]/a[5]/span
 			
-			driver.findElement(By.xpath("//*[@id=\"nav-al-wishlist\"]/a[4]/span")).click();
+			driver.findElement(By.xpath("//*[@id=\"nav-al-your-account\"]/a[5]/span")).click();
 		}
 		
 		
