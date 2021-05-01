@@ -26,5 +26,7 @@ public class MouseOverDemo {
 			
 			driver.get("https://www.amazon.com/");
 			
+			driver.getCurrentURL();
+			
 		}
     }
