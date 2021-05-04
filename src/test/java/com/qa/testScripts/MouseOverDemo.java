@@ -16,7 +16,7 @@ public class MouseOverDemo {
 		public static void setup()
 		{
 			
-	         System.setProperty("webdriver.chrome.driver", "C:\\Users\\vishal mittal\\Downloads\\chromedriver_win32 (12)\\chromedriver.exe");
+	         System.setProperty("webdriver.chrome.driver", "C:\\Users\\vishal mittal\\Downloads\\chromedriver_win32 (22)\\chromedriver.exe");
 			
 			driver = new ChromeDriver();
 			
@@ -28,7 +28,7 @@ public class MouseOverDemo {
 			
 		}
 		
-		
+		//@Test
 		public void mouseovermethod() throws InterruptedException
 		{
 			
@@ -71,6 +71,8 @@ public class MouseOverDemo {
 		// MoveToElement() --Event : move the cursor to an or another element
 		// build() and perform() methods are used to perform the series of events on the page
 		obj.clickAndHold(e).moveToElement(e1).build().perform();
+		
+		
 		
 		Thread.sleep(3000);
 		driver.navigate().refresh();

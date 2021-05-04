@@ -8,7 +8,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class MouseOverDemo {
+public class AsitaTest {
 	
 	public static WebDriver driver;
 	
@@ -26,7 +26,7 @@ public class MouseOverDemo {
 			
 			driver.get("https://www.amazon.com/");
 			
-			driver.getCurrentURL();
+			driver.getCurrentUrl();
 			
 		}
     }
