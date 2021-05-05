@@ -11,7 +11,7 @@ public class Base {
 
 	public static void setup(String url)
 	{
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\vishal mittal\\Downloads\\chromedriver_win32 (21)\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\Users\HP\Downloads\chromedriver_win32 (1)\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().deleteAllCookies();
 		driver.get(url);
